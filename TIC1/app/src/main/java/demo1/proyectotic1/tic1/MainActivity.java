@@ -182,6 +182,19 @@ import java.util.List;
          aculizarNode(mynode7);
          mArray.add(mynode7);
 
+         Node mynode8=new Node();
+         mynode8.mTitle=this.getResources().getString(R.string.App_archivos);
+        mynode8.mDescripcion=this.getResources().getString(R.string.App_archivosd);
+        mynode8.mEstado=this.getResources().getString(R.string.App_archivose);
+        mynode8.packed=this.getResources().getString(R.string.App_archivosp);
+        mynode8.mImagenResourse=R.drawable.archivos;
+
+        aculizarNode(mynode8);
+        mArray.add(mynode8);
+
+
+
+
 
 
     }
