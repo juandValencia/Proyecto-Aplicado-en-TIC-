@@ -40,9 +40,4 @@
     <string name="App_gpsp">com.google.android.apps.maps</string>
 
 
-    <string name="App_archivos">OneDrive</string>
-    <string name="App_archivosd">Guarda ,comparte,descarga todos tus archivos o los que compartan contigo</string>
-    <string name="App_archivose">Instalar</string>
-    <string name="App_archivosp">com.microsoft.office.onedrive</string>
-
 </resources>
