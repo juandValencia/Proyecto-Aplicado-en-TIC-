@@ -1,0 +1,12 @@
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\upb.tabd.entidades.dll.config
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\upb.tabd.entidades.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\upb.tabd.entidades.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.csprojAssemblyReference.cache

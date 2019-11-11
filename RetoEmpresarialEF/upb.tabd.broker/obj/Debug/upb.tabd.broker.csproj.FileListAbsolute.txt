@@ -1,0 +1,11 @@
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\bin\Debug\upb.tabd.broker.dll.config
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\bin\Debug\upb.tabd.broker.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\bin\Debug\upb.tabd.broker.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\obj\Debug\upb.tabd.broker.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\obj\Debug\upb.tabd.broker.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\obj\Debug\upb.tabd.broker.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.broker\obj\Debug\upb.tabd.broker.pdb
