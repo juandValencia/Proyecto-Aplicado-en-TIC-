@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RetoEmpresarialModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admins">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="contraseña" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AppsrRecomend">
+    <Key>
+      <PropertyRef Name="IdAplicacion" />
+    </Key>
+    <Property Name="IdAplicacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Direccion" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AppsxUsuario">
+    <Key>
+      <PropertyRef Name="IdAplicacion" />
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdAplicacion" Type="int" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreUsuario" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Correo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contraseña" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Celular" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AppsxUsuario_AppsrRecomend">
+    <End Role="AppsrRecomend" Type="Self.AppsrRecomend" Multiplicity="1" />
+    <End Role="AppsxUsuario" Type="Self.AppsxUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AppsrRecomend">
+        <PropertyRef Name="IdAplicacion" />
+      </Principal>
+      <Dependent Role="AppsxUsuario">
+        <PropertyRef Name="IdAplicacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AppsxUsuario_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="AppsxUsuario" Type="Self.AppsxUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AppsxUsuario">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RetoEmpresarialModelStoreContainer">
+    <EntitySet Name="admins" EntityType="Self.admins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AppsrRecomend" EntityType="Self.AppsrRecomend" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AppsxUsuario" EntityType="Self.AppsxUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AppsxUsuario_AppsrRecomend" Association="Self.FK_AppsxUsuario_AppsrRecomend">
+      <End Role="AppsrRecomend" EntitySet="AppsrRecomend" />
+      <End Role="AppsxUsuario" EntitySet="AppsxUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AppsxUsuario_Usuario" Association="Self.FK_AppsxUsuario_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="AppsxUsuario" EntitySet="AppsxUsuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
