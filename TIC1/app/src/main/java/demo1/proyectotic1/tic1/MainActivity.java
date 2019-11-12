@@ -8,6 +8,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -25,9 +26,15 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.widget.Toast;
 import org.w3c.dom.Node;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,10 +55,15 @@ import java.util.List;
     private    String[] Aplicaciones ,Aplicaciones2,AppPaquete ,AppPaquete2;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
        //setContentView(R.layout.activity_main);
+
+
+
+
         List<PackageInfo> packagelist=getPackageManager().getInstalledPackages(0);
 
         Aplicaciones = new  String[packagelist.size()];
@@ -61,31 +73,29 @@ import java.util.List;
             PackageInfo packageInfo=packagelist.get(i);
             if((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM)==0){
 
-                 AppPaquete[i]=packageInfo.packageName;
-                String appName=packageInfo.applicationInfo.loadLabel(getPackageManager()).toString();
+                AppPaquete[i] = packageInfo.packageName;
+                String appName = packageInfo.applicationInfo.loadLabel(getPackageManager()).toString();
                 Aplicaciones[i]=appName;
             }
         }
-            Integer flag=0;
-            for(int i=0;i<Aplicaciones.length;i++){
-            if(Aplicaciones[i]==null)flag++;
-            }
-            Aplicaciones2=new String[Aplicaciones.length-flag];
-            AppPaquete2=new String[Aplicaciones.length-flag];
-            Integer j=0;
-            for (int i=0;i<=flag;i++){
-                if(Aplicaciones[i]!=null){
-                    Aplicaciones2[j]=Aplicaciones[i];
-                    AppPaquete2[j]=AppPaquete[i];
-                    j++;
-                }
-
+        Integer flag=0;
+        for(int i=0;i<Aplicaciones.length;i++){
+        if(Aplicaciones[i]==null)flag++;
+        }
+        Aplicaciones2=new String[Aplicaciones.length-flag];
+        AppPaquete2=new String[Aplicaciones.length-flag];
+        Integer j=0;
+        for (int i=0;i<=flag;i++){
+            if(Aplicaciones[i]!=null){
+                Aplicaciones2[j]=Aplicaciones[i];
+                AppPaquete2[j]=AppPaquete[i];
+                j++;
             }
 
-            setData();
-            mAdapter =new MyAdapter(this);
-            setListAdapter(mAdapter);
-
+        }
+        setData();
+        mAdapter =new MyAdapter(this);
+        setListAdapter(mAdapter);
     }
 
         protected void onListItemClick(ListView l ,View v ,int position,long id){
@@ -100,8 +110,6 @@ import java.util.List;
             }
 
         }
-
-        protected  void onClick(){}
 
         public String ActulizarEstado(String nombreApp){
             String retorno="instalar";
@@ -238,56 +246,4 @@ import java.util.List;
                 return view;
             }
         }
-
-
-
-
 }
-/*
-private static class CustomCursorAdapter extends CursorAdapter {
-        protected ListView mListView; protected static class RowViewHolder {
-            public TextView mTitle; public TextView mText; }
-            public CustomCursorAdapter(Activity activity) {
-            super();
-            mListView = activity.getListView(); }
-            @Override public void bindView(View view, Context context, Cursor cursor) {
-            }
-             @Override public View newView(Context context, Cursor cursor, ViewGroup parent) {
-            View view = View.inflate(context, R.layout.row_layout, null);
-            RowViewHolder holder = new RowViewHolder();
-            holder.mTitle = (TextView) view.findViewById(R.id.Title);
-            holder.mText = (TextView) view.findViewById(R.id.Text);
-            holder.mTitle.setOnClickListener(mOnTitleClickListener);
-            holder.mText.setOnClickListener(mOnTextClickListener);
-            view.setTag(holder); return view;
-        } private OnClickListener mOnTitleClickListener = new OnClickListener() {
-            @Override public void onClick(View v) {
-                final int position = mListView.getPositionForView((View) v.getParent());
-                Log.v(TAG, "Title clicked, row %d", position);
-            } };
-        private OnClickListener mOnTextClickListener = new OnClickListener() {
-            @Override public void onClick(View v) {
-                final int position = mListView.getPositionForView((View) v.getParent());
-                Log.v(TAG, "Text clicked, row %d", position); } }; }
-    }
-    }
-
-
-    ---------------------------------------------------------------
-      button.setOnClickListener(new Button.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-
-                        if(button.getText().equals("ABRIR")||button.getText().equals("abrir")){
-                            Toast.makeText(mContext,button.getText().toString(),Toast.LENGTH_LONG).show();
-
-                            notifyDataSetChanged();
-                        }
-                        else if(button.getText().equals("INSTALAR")||button.getText().equals("instalar")){
-                            Toast.makeText(mContext,button.getText().toString(),Toast.LENGTH_LONG).show();
-                            notifyDataSetChanged();
-                        }
-
-                    }
-                });
-*/

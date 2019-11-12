@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+
 public class Main extends AppCompatActivity {
     EditText et1,et2;
     private Cursor fila;
@@ -25,13 +26,15 @@ public class Main extends AppCompatActivity {
         SQLiteDatabase db=admin.getWritableDatabase();
         String usuario=et1.getText().toString();
         String contrasena=et2.getText().toString();
-        fila=db.rawQuery("select usuario,contrasena from usuarios where usuario='"+usuario+"' and contrasena='"+contrasena+"'",null);
+        fila=db.rawQuery("select usuario,contrasena,codigo from usuarios where usuario='"+usuario+"' and contrasena='"+contrasena+"'",null);
 
         if (fila.moveToFirst()){
             String usua=fila.getString(0);
             String pass=fila.getString(1);
+            int code = fila.getInt(2);
             if (usuario.equals(usua)&&contrasena.equals(pass)){
-                Intent ven=new Intent(this,MainActivity.class);
+                Intent ven=new Intent(this,MenuActivity.class);
+                ven.putExtra("IdUsuario",code);
                 startActivity(ven);
                 et1.setText("");
                 et2.setText("");
