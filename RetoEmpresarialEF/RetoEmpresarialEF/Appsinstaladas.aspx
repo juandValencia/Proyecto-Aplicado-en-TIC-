@@ -6,6 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>AppsInstaladas</title>
+    <link href="resources/css/estilos2.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -14,6 +15,8 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
+            <h1></h1>
+            <h1>Correo Usuario</h1>  
             <div class="form-group">
                 <asp:Label ID="lblCorreoUsuario" runat="server" Text="Correo Usuario"></asp:Label>
                 <asp:TextBox ID="txtCorreoUsuario" runat="server" CssClass="form-control" ></asp:TextBox> 
@@ -25,7 +28,8 @@
 
             </div>
             <div class="form-group">
-                <asp:GridView ID="gdvApps" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal">
+
+                <asp:GridView ID="gdvApps" runat="server" CssClass="gridview" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal">
                     <Columns>
                         <asp:BoundField DataField="NombreAppRecomendada" HeaderText="Nombre aplicacion " />                  
                     </Columns>
@@ -39,20 +43,6 @@
                     <SortedDescendingHeaderStyle BackColor="#242121" />
                 </asp:GridView>
 
-                <asp:GridView ID="gdvNoapps" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal">
-                    <Columns>
-                        <asp:BoundField DataField="NombreAppRecomendada" HeaderText="Nombre aplicacion no instalada " />                  
-                    </Columns>
-                    <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
-                    <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
-                    <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
-                    <SelectedRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
-                    <SortedAscendingCellStyle BackColor="#F7F7F7" />
-                    <SortedAscendingHeaderStyle BackColor="#4B4B4B" />
-                    <SortedDescendingCellStyle BackColor="#E5E5E5" />
-                    <SortedDescendingHeaderStyle BackColor="#242121" />
-                </asp:GridView>
-                
             </div>
             
 

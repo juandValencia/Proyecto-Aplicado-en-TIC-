@@ -75,6 +75,10 @@
   <ItemGroup>
     <Content Include="Appsinstaladas.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="resources\css\estilos.css" />
+    <Content Include="resources\css\estilos2.css" />
+    <Content Include="resources\img\bg.jpeg" />
+    <Content Include="resources\img\logo.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

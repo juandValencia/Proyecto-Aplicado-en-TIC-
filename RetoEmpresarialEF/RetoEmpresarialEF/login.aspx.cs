@@ -36,11 +36,7 @@ namespace RetoEmpresarialEF
             if (confirmacion)
             {
                 lblConfirmacioningreso.Text = "se logueo";
-                lblConfirmacioningreso.CssClass = "alert-sucess";
-
-                
-
-
+                lblConfirmacioningreso.CssClass = "alert-sucess";                
                 Response.Redirect("Appsinstaladas.aspx");
 
             }

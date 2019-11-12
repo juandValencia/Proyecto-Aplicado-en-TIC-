@@ -10,3 +10,15 @@ C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidade
 C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.dll
 C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.pdb
 C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.csprojAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\upb.tabd.entidades.dll.config
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\upb.tabd.entidades.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\upb.tabd.entidades.pdb
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.csprojAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.csproj.CopyComplete
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.entidades\obj\Debug\upb.tabd.entidades.pdb
