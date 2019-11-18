@@ -7,11 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Button;
 
 
 public class Main extends AppCompatActivity {
     EditText et1,et2;
     private Cursor fila;
+    Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,13 @@ public class Main extends AppCompatActivity {
         setContentView(R.layout.main);
         et1= (EditText) findViewById(R.id.etusuario);
         et2= (EditText) findViewById(R.id.etcontrasena);
+        button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                salir(view);
+            }
+        });
     }
 
     public void ingresar(View v){

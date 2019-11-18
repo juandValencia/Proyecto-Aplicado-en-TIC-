@@ -1,0 +1,53 @@
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.dll.config
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.dll.config
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.dll.config
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.pdb
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.dll.config
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.pdb
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.pdb
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.dll.config
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.pdb
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.dll.config
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csprojAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csproj.CopyComplete
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.dll
+C:\Users\USER\Documents\GitHub\Proyecto-Aplicado-en-TIC-\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.pdb
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.dll.config
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.dll
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.controladora.pdb
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.dll
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.dll
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.pdb
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.broker.dll.config
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.pdb
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\upb.tabd.entidades.dll.config
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.csproj.CopyComplete
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.dll
+C:\Users\Usuario\Desktop\TIC\RetoEmpresarialEF\upb.tabd.controladora\obj\Debug\upb.tabd.controladora.pdb

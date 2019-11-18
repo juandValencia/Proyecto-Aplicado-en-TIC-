@@ -17,7 +17,6 @@ public class DBHelper  extends SQLiteOpenHelper{
         db.execSQL("insert into usuarios values(02,'pepe','pepe')");
         db.execSQL("insert into usuarios values(03,'pepe2','pepe2')");
         db.execSQL("insert into usuarios values(04,'santi','123')");
-
     }
 
     @Override

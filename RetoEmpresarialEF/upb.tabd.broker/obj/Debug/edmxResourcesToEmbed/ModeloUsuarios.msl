@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RetoEmpresarialModelStoreContainer" CdmEntityContainer="RetoEmpresarialEntities">
+    <EntitySetMapping Name="AppsrRecomends">
+      <EntityTypeMapping TypeName="RetoEmpresarialModel.AppsrRecomend">
+        <MappingFragment StoreEntitySet="AppsrRecomend">
+          <ScalarProperty Name="IdAplicacion" ColumnName="IdAplicacion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AppsxUsuarios">
+      <EntityTypeMapping TypeName="RetoEmpresarialModel.AppsxUsuario">
+        <MappingFragment StoreEntitySet="AppsxUsuario">
+          <ScalarProperty Name="IdAplicacion" ColumnName="IdAplicacion" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="RetoEmpresarialModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="UsuarioNombre" ColumnName="UsuarioNombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="RetoEmpresarialModel.admin">
+        <MappingFragment StoreEntitySet="admins">
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

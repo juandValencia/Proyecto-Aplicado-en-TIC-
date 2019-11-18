@@ -7,7 +7,7 @@ import java.sql.Connection;
 
 public class SQLServerConnection {
     Connection connection = null;
-    String cn = "jdbc:jtds:sqlserver://192.168.0.31;port=1433;databaseName=RetoEmpresarial;user=sa;password=admin";
+    String cn = "jdbc:jtds:sqlserver://192.168.43.106;port=1433;databaseName=RetoEmpresarial;user=sa;password=admin";
     public Connection conexion(){
         try {
             Log.i("paso1","Entró");

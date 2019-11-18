@@ -109,30 +109,34 @@ public class MenuActivity extends AppCompatActivity {
 
     private void salir(){
         SQLServerConnection con = new SQLServerConnection();
-        Connection cn = con.conexion();
-        Statement pst;
+        Connection cn1 = con.conexion();
+        Connection cn2 = con.conexion();
+        Statement pst1,pst2;
         ResultSet rs1,rs2 = null;
-        System.out.println(cn);
         try{
-            pst = cn.createStatement();
+            pst1 = cn1.createStatement();
+            pst2 = cn2.createStatement();
             int idusuario = getIntent().getIntExtra("IdUsuario",1);
             int contador = 0,idaplicacion;
-            rs1 = pst.executeQuery("SELECT * FROM AppsxUsuario WHERE IdUsuario = "+idusuario);
+            rs1 = pst1.executeQuery("SELECT * FROM AppsxUsuario WHERE IdUsuario = "+idusuario);
             while(rs1.next()){
-                pst.executeUpdate("DELETE FROM ApssxUsuario WHERE IdUsuario = "+idusuario+" AND IdAplicacion = "+rs1.getInt(0));
+                System.out.println(rs1.getInt(0)+" "+rs1.getInt(1));
+                pst1.executeUpdate("DELETE FROM AppsxUsuario WHERE IdUsuario = "+idusuario+" AND IdAplicacion = "+rs1.getInt(0));
             }
             for (int i = 0;i<Aplicaciones2.length;i++){
                 for (int j = 0;j<apps.length;j++){
                     if(Aplicaciones2[i].equals(apps[j])){
-                        rs2 = pst.executeQuery("SELECT IdAplicacion FROM AppsrRecomend WHERE Nombre = "+apps[j]);
-                        pst.executeUpdate("INSERT INTO AppsxUsuario (IdAplicacion,IdUsuario,Nombre) VALUES ("+rs2.getInt(0)+","+idusuario+","+apps[j]+")");
+                        rs2 = pst2.executeQuery("SELECT IdAplicacion FROM AppsrRecomend WHERE Nombre = '"+apps[j]+"'");
+                        if(rs2.next()) pst2.executeUpdate("INSERT INTO AppsxUsuario (IdAplicacion,IdUsuario,Nombre) VALUES ("+rs2.getInt("IdAplicacion")+","+idusuario+",'"+apps[j]+"')");
                     }
                 }
             }
             if(rs2!=null) rs2.close();
             rs1.close();
-            pst.close();
-            cn.close();
+            pst1.close();
+            pst2.close();
+            cn1.close();
+            cn2.close();
             Toast.makeText(this,"Cierre de sesión exitoso",Toast.LENGTH_LONG).show();
             Intent intent = new Intent (getApplicationContext(), Main.class);
             startActivityForResult(intent, 0);
